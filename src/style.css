@@ -4,6 +4,10 @@
   padding-right: 50px;
   
 }
+.mb-3{
+  padding: 20px;
+  
+}
 #main-one{
   position: relative;
   height: 80%;
@@ -48,6 +52,7 @@
 }
 #icon-card{
   position: relative;
-  margin: 40px;
+  
+  margin: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
