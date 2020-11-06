@@ -104,6 +104,17 @@ h3{
 }
 h2{
   font-weight: 500;
-  
-  
-}
+ 
+  }
+  ul{
+    list-style: none;
+  }
+  #button{
+   padding-left: 40px;
+   padding-right: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 20px;
+  }
+  #inputPassword2{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
