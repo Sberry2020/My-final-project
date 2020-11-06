@@ -7,11 +7,11 @@
 .mb-3{
   padding: 20px;
   padding-right: -50px;
-  
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
 }
 #main-one{
   position: relative;
-  height: 80%;
+  height: 90%;
   margin:30px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -47,7 +47,7 @@
 }
 #last-one{
   position: relative;
-  width: 407px;
+  
   margin: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
