@@ -3,6 +3,7 @@
   margin: 50px;
   padding-right: 15px;
   font-family: 'Roboto Condensed', sans-serif;
+  color:#6F6F6F;
 }
 .mb-3{
   padding: 20px;
@@ -97,4 +98,12 @@
   color: #4481eb;
   font-size: 50px;
   margin-left: 40px;
+}
+h3{
+  
+}
+h2{
+  font-weight: 500;
+  
+  
 }
