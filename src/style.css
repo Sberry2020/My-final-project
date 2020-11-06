@@ -1,121 +1,122 @@
-.container{
+.container {
   display: block;
   margin: 50px;
   padding-right: 15px;
-  font-family: 'Roboto Condensed', sans-serif;
-  color:#6F6F6F;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #6f6f6f;
 }
-.mb-3{
+.mb-3 {
   padding: 20px;
   padding-right: -50px;
   background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
 }
-#main-one{
+#main-one {
   position: relative;
   height: 90%;
-  margin:30px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-#top{
-  position: relative;
-  margin: 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-#second-top{
-  position: relative;
-  margin: 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-#middle{
-  position: relative;
-  margin: 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-#second-middle{
-  position: relative;
-  margin: 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-#bottom{
-  position: relative;
-  margin: 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-#second-bottom{
-  position: relative;
-  margin: 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-#last-one{
-  position: relative;
-  
-  margin: 10px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-#icon-card{
-  position: relative;
-  
   margin: 30px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.fa-sun{
-  color: orange;
-  font-size: 50px;
- margin-left: 30px;
+#top {
+  position: relative;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.fa-cloud-sun{
+#second-top {
+  position: relative;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#middle {
+  position: relative;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#second-middle {
+  position: relative;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#bottom {
+  position: relative;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#second-bottom {
+  position: relative;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#last-one {
+  position: relative;
+​
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+#icon-card {
+  position: relative;
+​
+  margin: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.fa-sun {
   color: orange;
   font-size: 50px;
   margin-left: 30px;
-  
 }
-.fa-cloud{
+.fa-cloud-sun {
+  color: orange;
+  font-size: 50px;
+  margin-left: 30px;
+}
+.fa-cloud {
   color: #4481eb;
   font-size: 50px;
   margin-left: 40px;
 }
-.fa-cloud-rain{
+.fa-cloud-rain {
   color: #4481eb;
   font-size: 50px;
   margin-left: 40px;
 }
-.fa-cloud-showers-heavy{
+.fa-cloud-showers-heavy {
   color: #4481eb;
   font-size: 50px;
   margin-left: 40px;
 }
-.fa-poo-storm{
+.fa-poo-storm {
   color: #4481eb;
   font-size: 50px;
   margin-left: 40px;
 }
-.fa-snowflake{
+.fa-snowflake {
   color: #4481eb;
   font-size: 50px;
   margin-left: 40px;
 }
-#flake{
+#flake {
   color: #4481eb;
   font-size: 50px;
   margin-left: 40px;
 }
-h3{
-  
+h3 {
 }
-h2{
+h2 {
   font-weight: 500;
- 
-  }
-  ul{
-    list-style: none;
-  }
-  #button{
-   padding-left: 40px;
-   padding-right: 40px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    margin-left: 20px;
-  }
-  #inputPassword2{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  }
-  
+}
+ul {
+  list-style: none;
+}
+#button {
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-left: 20px;
+}
+#inputPassword2 {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  flex: 1;
+}
+​
+.form-inline .form-group {
+  flex: 1;
+}
