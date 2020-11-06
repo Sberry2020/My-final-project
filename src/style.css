@@ -1,42 +1,53 @@
 .container{
   display: block;
   margin: 50px;
+  padding-right: 50px;
   
 }
 #main-one{
+  position: relative;
   height: 80%;
   margin:30px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #top{
+  position: relative;
   margin: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #second-top{
+  position: relative;
   margin: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #middle{
+  position: relative;
   margin: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #second-middle{
+  position: relative;
   margin: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #bottom{
+  position: relative;
   margin: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #second-bottom{
+  position: relative;
   margin: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #last-one{
+  position: relative;
   width: 407px;
   margin: 10px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #icon-card{
+  position: relative;
   margin: 40px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
