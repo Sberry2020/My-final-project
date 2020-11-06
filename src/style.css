@@ -57,3 +57,44 @@
   margin: 30px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+.fa-sun{
+  color: orange;
+  font-size: 50px;
+ margin-left: 30px;
+}
+.fa-cloud-sun{
+  color: orange;
+  font-size: 50px;
+  margin-left: 30px;
+  
+}
+.fa-cloud{
+  color: #4481eb;
+  font-size: 50px;
+  margin-left: 40px;
+}
+.fa-cloud-rain{
+  color: #4481eb;
+  font-size: 50px;
+  margin-left: 40px;
+}
+.fa-cloud-showers-heavy{
+  color: #4481eb;
+  font-size: 50px;
+  margin-left: 40px;
+}
+.fa-poo-storm{
+  color: #4481eb;
+  font-size: 50px;
+  margin-left: 40px;
+}
+.fa-snowflake{
+  color: #4481eb;
+  font-size: 50px;
+  margin-left: 40px;
+}
+#flake{
+  color: #4481eb;
+  font-size: 50px;
+  margin-left: 40px;
+}
