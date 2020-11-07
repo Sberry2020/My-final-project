@@ -119,3 +119,6 @@ ul {
 .form-inline .form-group {
   flex: 1;
 }
+.number{
+  font-weight: 800;
+}
