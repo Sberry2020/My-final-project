@@ -12,7 +12,7 @@
 }
 #main-one {
   position: relative;
-  height: 90%;
+  height: 92%;
   margin: 30px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -118,7 +118,4 @@ ul {
 ​
 .form-inline .form-group {
   flex: 1;
-}
-.number{
-  font-weight: 800;
 }

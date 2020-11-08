@@ -31,7 +31,7 @@ let dateElement = document.querySelector("#date");
 let currentTime = new Date();
 dateElement.innerHTML = `${currentTime}`;
 
-let searchButton = document.querySelector("#button");
+let searchButton = document.querySelector("#search-form");
 searchButton.addEventListener("submit", form);
 
 let fahrenheitLink = document.querySelector("#fahrenheit-link");

@@ -16,6 +16,7 @@
       src="https://kit.fontawesome.com/44996aa8b5.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -44,13 +45,10 @@
                 <hr />
 
                 <ul>
-                  <li id="wind">
-                    WIND : 14 KM/H
-                  </li>
-                  <li id="humidity">
-                    HUMIDITY: 70%
-                  </li>
-                </ul>
+                  <li> WIND: <strong id="wind"></strong> Km/H
+             </li>
+                  <li>Humidity: <strong id="humidity"></strong>%</li>
+               </ul>
               </div>
             </div>
           </div>
@@ -135,7 +133,7 @@
               <div class="col-md-12">
                 <div class="card" id="last-one">
                   <div class="card-body">
-                    <form class="form-inline">
+                    <form id="search-form" class="form-inline">
                       <div class="form-group mx-sm-3">
                         <input
                           type="text"
@@ -180,14 +178,14 @@
         
       
       </div>
-      <div class = "git-link">
-
-        <small class = "git-link">
-        <a href="https://github.com/Sberry2020/My-final-project"> Open-sourse code </a><h5>
-          by Aksana Kurbanova
-        </h5>
-      </small>
       </div>
+    <div class = "git-link">
+
+      <small class = "git-link">
+      <a href="https://github.com/Sberry2020/My-final-project"> Open-sourse code </a><h5>
+        by Aksana Kurbanova
+      </h5>
+    </small>
     </div>
     <script src="src/app.js"></script>
   </body>
