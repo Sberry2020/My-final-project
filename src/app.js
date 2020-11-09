@@ -7,13 +7,12 @@ function displayWeather(response){
     response.data.wind.speed
   );
   document.querySelector("#description").innerHTML = response.data.weather[0].main;
-  
+  document.querySelector("#icon").setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
 }
 function searchCity(city) {
 let apiKey = "a812dde348aef759917fa847a384093f";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-  console.log(apiUrl);
-   axios.get(apiUrl).then(displayWeather);
+ axios.get(apiUrl).then(displayWeather);
 }
 function form(event){ 
   event.preventDefault()
