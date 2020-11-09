@@ -119,3 +119,10 @@ ul {
 .form-inline .form-group {
   flex: 1;
 }
+.active{
+color: #6f6f6f;
+cursor: default;
+}
+.active:hover{
+  text-decoration: none;
+}
