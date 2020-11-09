@@ -119,13 +119,13 @@ ul {
 .form-inline .form-group {
   flex: 1;
 }
-.image.active{
+/*.image.active{
 color: #6f6f6f;
 cursor: default;
 }
 .image.active:hover{
   text-decoration: none;
-} 
+} */
 
 
 .tempOnMain{

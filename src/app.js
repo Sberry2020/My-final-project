@@ -1,4 +1,21 @@
-function displayWeather(response){
+function formatDate(timestamp) {
+  let date = new Date(timestamp);
+  let hours = date.getHours();
+  let minutes = date.getMinutes();
+  if (hours < 10) {
+    hours = `0${hours}`;
+  }
+  if (minutes < 10) {
+    minutes = `0${hours}`;
+}
+  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  let day = document.querySelector("#day").innerHTML = days[date.getDay()];
+
+
+
+}
+
+function displayWeather(response) {
   document.querySelector("#city").innerHTML = response.data.name;
  document.querySelector("#temperature").innerHTML = Math.round (celsiusTemperature
   );
@@ -6,9 +23,11 @@ function displayWeather(response){
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
   );
+  
   document.querySelector("#description").innerHTML = response.data.weather[0].description;
   document.querySelector("#icon").setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
   celsiusTemperature = response.data.main.temp;
+  document.querySelector("#date").innerHTML = formatDate(response.data.dt * 1000);
 }
 function searchCity(city) {
 let apiKey = "a812dde348aef759917fa847a384093f";
@@ -38,9 +57,6 @@ function displayCelsiusTemp(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
-let dateElement = document.querySelector("#date");
-let currentTime = new Date();
-dateElement.innerHTML = `${currentTime}`;
 
 let celsiusTemperature = null;
 
