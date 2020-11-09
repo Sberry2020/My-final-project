@@ -6,7 +6,7 @@ function formatDate(timestamp) {
     hours = `0${hours}`;
   }
   if (minutes < 10) {
-    minutes = `0${hours}`;
+    minutes = `0${minutes}`;
 }
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let day = document.querySelector("#day").innerHTML = days[date.getDay()];
@@ -28,7 +28,9 @@ function displayWeather(response) {
   document.querySelector("#icon").setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
   celsiusTemperature = response.data.main.temp;
   document.querySelector("#date").innerHTML = formatDate(response.data.dt * 1000);
+ 
 }
+
 function searchCity(city) {
 let apiKey = "a812dde348aef759917fa847a384093f";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
