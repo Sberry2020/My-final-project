@@ -119,13 +119,16 @@ ul {
 .form-inline .form-group {
   flex: 1;
 }
-/*.image.active{
+#celsius-link.active,
+#fahrenheit-link.active
+{
 color: #6f6f6f;
-cursor: default;
 }
-.image.active:hover{
+#celsius-link:hover,
+#fahrenheit-link:hover {
   text-decoration: none;
-} */
+  cursor: default;
+} 
 
 
 .tempOnMain{
