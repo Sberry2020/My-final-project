@@ -22,6 +22,7 @@ function  formatHours(targetTimestamp){
 }
 
 function displayWeather(response) {
+  celsiusTemperature = response.data.main.temp;
   document.querySelector("#city").innerHTML = response.data.name;
  document.querySelector("#temperature").innerHTML = Math.round (celsiusTemperature
   );
@@ -32,7 +33,6 @@ function displayWeather(response) {
   
   document.querySelector("#description").innerHTML = response.data.weather[0].description;
   document.querySelector("#icon").setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
-  celsiusTemperature = response.data.main.temp;
   document.querySelector("#date").innerHTML = formatDate(new Date(), response.data.timezone);
  
 }
