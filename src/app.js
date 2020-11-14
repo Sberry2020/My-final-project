@@ -1,5 +1,8 @@
 function formatDate(timestamp) {
-  let date = new Date(timestamp);
+  let localOffsetInMs = date.getTimezoneOffset() * 60 * 1000;
+  let targetOffsetInMs = timestamp * 1000;
+  let targetTimestamp = date.getTime() + localOffsetInMs + targetOffsetInMs;
+  let date = new Date(targetTimestamp);
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   let day = document.querySelector("#day").innerHTML = days[date.getDay()];
 
