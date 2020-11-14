@@ -8,7 +8,11 @@
 .mb-3 {
   padding: 20px;
   padding-right: -50px;
-  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+ background-image: url("https://www.photocircle.net/eu/photos/thumbnails/zoom/76167-Beautiful-beach-with-palm-trees-on-Bora-Bora-in-French-Polynesia--by-jan-becke.jpg");
+
+}
+.background {
+width: 100%;
 }
 #main-one {
   position: relative;
@@ -48,8 +52,7 @@
 }
 #last-one {
   position: relative;
-​
-  margin: 20px;
+​margin: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 #icon-card {
@@ -120,8 +123,7 @@ ul {
   flex: 1;
 }
 #celsius-link.active,
-#fahrenheit-link.active
-{
+#fahrenheit-link.active {
 color: #6f6f6f;
 }
 #celsius-link:hover,
@@ -141,3 +143,11 @@ color: #6f6f6f;
 img{
   width: 50px;
 }
+.wind{
+  width: 20px;
+}
+.hum{
+  width: 20px;
+}
+
+
