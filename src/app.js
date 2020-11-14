@@ -1,15 +1,15 @@
-function formatDate(timestamp) {
+function formatDate (date, timezone) {
   let localOffsetInMs = date.getTimezoneOffset() * 60 * 1000;
-  let targetOffsetInMs = timestamp * 1000;
+  let targetOffsetInMs = timezone * 1000;
   let targetTimestamp = date.getTime() + localOffsetInMs + targetOffsetInMs;
-  let date = new Date(targetTimestamp);
+  let dateNew = new Date(targetTimestamp);
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  let day = document.querySelector("#day").innerHTML = days[date.getDay()];
+  document.querySelector("#day").innerHTML = days[dateNew.getDay()];
 
-  return `${formatHours(timestamp)}`;
+  return `${formatHours(targetTimestamp)}`;
 }
-function  formatHours(timestamp){
-  let date = new Date(timestamp);
+function  formatHours(targetTimestamp){
+  let date = new Date(targetTimestamp);
   let hours = date.getHours();
   let minutes = date.getMinutes();
   if (hours < 10) {
@@ -33,7 +33,7 @@ function displayWeather(response) {
   document.querySelector("#description").innerHTML = response.data.weather[0].description;
   document.querySelector("#icon").setAttribute("src", `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
   celsiusTemperature = response.data.main.temp;
-  document.querySelector("#date").innerHTML = formatDate(response.data.dt * 1000);
+  document.querySelector("#date").innerHTML = formatDate(new Date(), response.data.timezone);
  
 }
 
